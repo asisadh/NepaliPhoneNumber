@@ -12,6 +12,7 @@
 		4826759D2142543C003E70F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4826759B2142543C003E70F6 /* Main.storyboard */; };
 		4826759F2142543E003E70F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4826759E2142543E003E70F6 /* Assets.xcassets */; };
 		482675A22142543E003E70F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 482675A02142543E003E70F6 /* LaunchScreen.storyboard */; };
+		482675AB21425462003E70F6 /* NepaliPhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482675AA21425462003E70F6 /* NepaliPhoneNumber.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4826759E2142543E003E70F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		482675A12142543E003E70F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		482675A32142543E003E70F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		482675AA21425462003E70F6 /* NepaliPhoneNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NepaliPhoneNumber.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		482675962142543C003E70F6 /* NepaliPhoneNumberExample */ = {
 			isa = PBXGroup;
 			children = (
+				482675A92142544C003E70F6 /* Lib */,
 				482675972142543C003E70F6 /* AppDelegate.swift */,
 				482675992142543C003E70F6 /* ViewController.swift */,
 				4826759B2142543C003E70F6 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				482675A32142543E003E70F6 /* Info.plist */,
 			);
 			path = NepaliPhoneNumberExample;
+			sourceTree = "<group>";
+		};
+		482675A92142544C003E70F6 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				482675AA21425462003E70F6 /* NepaliPhoneNumber.swift */,
+			);
+			path = Lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4826759A2142543C003E70F6 /* ViewController.swift in Sources */,
+				482675AB21425462003E70F6 /* NepaliPhoneNumber.swift in Sources */,
 				482675982142543C003E70F6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
